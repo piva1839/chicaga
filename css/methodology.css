@@ -1,0 +1,127 @@
+.methodology__wrapper {
+  width: 100%;
+  max-width: 1150px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 50px 15px 50px 15px;
+}
+
+.methodology__title {
+  margin-bottom: 20px;
+
+  font-family: "SFUIDisplay-Bold", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.3em;
+  color: #af7535;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.methodology__description {
+  font-family: "GothaProReg", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.methodology__logo {
+  position: relative;
+
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+
+  text-align: center;
+}
+
+.methodology__logo::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -59px;
+
+  display: block;
+  width: 118px;
+  height: 3px;
+  background-color: #af7535;
+}
+
+.methodology__logo-img {
+  width: 100%;
+  height: auto;
+}
+
+.methodology__graph {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.methodology__diagram-img {
+  width: 100%;
+  height: auto;
+}
+
+.methodology__graph-img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 780px) {
+  .methodology__title {
+    margin-bottom: 40px;
+
+    font-family: "SFUIDisplay-Semibold", "Arial", sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 5;
+    color: #af7535;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .methodology__content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .methodology__logo {
+    width: 25%;
+    margin-bottom: 0;
+    margin-right: 40px;
+    padding-bottom: 0;
+  }
+
+  .methodology__logo-img {
+    width: 100%;
+  }
+
+  .methodology__logo::after {
+    display: none;
+  }
+
+  .methodology__logo::before{
+    content: "";
+    position: absolute;
+    right: -15px;
+    top: 50%;
+    margin-top: -50px;
+
+    display: block;
+    width: 3px;
+    height: 100px;
+    background-color: #af7535;
+  }
+
+  .methodology__description {
+    width: 70%;
+
+    font-family: "GothaProReg", "Arial", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: 333333;
+    text-align: left;
+  }
+}

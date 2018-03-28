@@ -1,0 +1,251 @@
+.advice--bg-gray {
+  background-color: #f5f5f5;
+}
+
+.advice--bg-black {
+  background-color: #000000;
+}
+
+.advice__wrapper {
+  width: 100%;
+  max-width: 1360px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 50px 15px;
+}
+
+.advice-main-title {
+  display: none;
+
+  font-family: "GothamPro", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 21px;
+  letter-spacing: 6px;
+  color: #ffffff;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.advice__wrapper--padding {
+  padding-bottom: 0;
+}
+
+.advice__order-text {
+  margin-bottom: 15px;
+}
+
+.advice__title-text {
+  margin-bottom: 25px;
+
+  font-family: "SFUIDisplay-Semibold", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.3em;
+  color: #af7535;
+  text-transform: uppercase;
+}
+
+.advice__order-icon {
+  display: block;
+}
+
+.advice__description-text {
+  margin-bottom: 25px;
+
+  font-family: "SFUIDisplay-Regular", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.advice__description-text--white {
+  color: #ffffff;
+}
+
+.advice__description-text--bold {
+  font-family: "SFUIDisplay-Medium", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.advice__description-text--white {
+  color: white;
+}
+
+.advice__quote {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advice__quote--bg-white {
+  background: #ffffff;
+}
+
+.advice__quote-photo {
+  width: 23%;
+}
+
+.advice__quote-description {
+  width: 77%;
+}
+
+.quote-img {
+  margin-bottom: 5px;
+}
+
+.advice__quote-text {
+  margin-bottom: 10px;
+
+  font-family: "SFUIDisplay-Semibold", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.3em;
+  color: #af7535;
+  text-transform: uppercase;
+}
+
+.advice__quote-text-autor {
+  font-family: "SFUIDisplay-Semibold", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+  color: #af7535;
+}
+
+.advice-white-block {
+  display: flex;
+  width: 100%;
+  max-width: 414px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 25px 15px;
+}
+
+.advice__quote--descktop {
+  display: none;
+}
+
+@media screen and (min-width: 786px) {
+  .advice {
+    background-color: #f5f5f5;
+  }
+
+  .advice-main-title {
+    display: block;
+  }
+
+  .advice__wrapper {
+    display: flex;
+    padding: 0;
+
+    background-color: #f5f5f5;
+  }
+
+  .advice__content {
+    display: flex;
+    width: 64%;
+    margin: 0;
+    padding: 40px;
+  }
+
+  .advice__content--gray {
+    background: url("../img/01bg.png") no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+  }
+
+  .advice__content--parent {
+    background: url("../img/003bg.png") no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+  }
+
+  .advice__content--black {
+    background: url("../img/04bg.png") no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+  }
+
+  .advice__title-text {
+    font-family: "SFUIDisplay-bold", "Arial", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    color: #af7535;
+    text-transform: uppercase;
+  }
+
+  .advice__quote {
+    display: flex;
+    flex-direction: column;
+    width: 36%;
+    padding: 40px;
+
+    background: url("../img/02bg.png") no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+  }
+
+  .advice__quote-photo {
+    margin-bottom: 20px;
+  }
+
+  .advice__quote-text {
+    font-family: "SFUIDisplay-bold", "Arial", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: #af7535;
+    text-transform: uppercase;
+  }
+
+  .advice__quote-text-autor {
+    font-family: "GothaPro", "Arial", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #af7535;
+  }
+
+  .advice-white-block {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .advice__quote--no-bg {
+    background: none;
+  }
+
+  .advice__quote-bg-d {
+    background: url("../img/06bg.png") no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+  }
+
+  .advice--bg-black {
+    background-color: #f5f5f5;
+    margin-bottom: 0;
+  }
+
+   .advice__quote--mobile {
+     display: none;
+   }
+
+   .advice__quote--descktop {
+     display: block;
+   }
+
+   .advice__quote-img {
+     width: 90px;
+     height: 90px;
+   }
+
+   .advice__order-text {
+     width: 140px;
+     height: 75px;
+     margin-right: 30px;
+   }
+}

@@ -1,0 +1,220 @@
+.teachers__wrapper {
+  width: 100%;
+  max-width: 1150px;
+  min-width: 320px;
+  margin: 0 auto;
+  margin-top: -110px;
+  padding: 50px 15px 50px 15px;
+}
+
+.teachers__wrapper-teeny {
+  margin-top: 0;
+}
+
+.teachers__title {
+  position: relative;
+
+  width: 100%;
+  margin: 0 auto;
+  padding: 65px 15px 90px 15px;
+
+  background: #f5f5f5;
+
+  font-family: "SFUIDisplay-Bold", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.3em;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.teachers__title-teeny {
+  margin-bottom: 20px;
+  padding: 0;
+
+  background: #ffffff;
+}
+
+.teeny-teachers-title {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 30px 15px 10px;
+
+  background: #ffffff;
+}
+
+.teachers__about {
+  margin-bottom: 100px;
+  padding: 0 15px;
+}
+
+.teeny-teachers-slider-conent {
+  background-color: #f5f5f5 !important;
+}
+
+.teachers-slider__conent {
+  min-height: 310px;
+  margin-top: 60px;
+}
+
+.teachers-slider__photo {
+  margin-top: -60px;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.teachers-slider__img {
+  width: 128px;
+  height: 128px;
+}
+
+.teachers-slider__teacher-name {
+  font-family: "SFUIDisplay-Bold", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.3em;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.teachers-slider__teacher-rang {
+  position: relative;
+
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+
+  font-family: "GothamPro", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #af7535;
+  text-align: center;
+}
+
+.teachers-slider__teacher-rang::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -9px;
+
+  display: block;
+  width: 18px;
+  height: 3px;
+  background-color: #af7535;
+}
+
+.teachers-slider__teacher-quote {
+  font-family: "GothamPro", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  color: #000000;
+  text-align: center;
+}
+
+.gray-line {
+  height: 70px;
+  background: #f5f5f5;
+}
+
+.teachers-slider__desctop-v {
+  display: none;
+}
+
+@media screen and (min-width: 780px) {
+  .teachers {
+    background-color: #f5f5f5;
+  }
+
+  .teachers__wrapper {
+    padding: 150px 15px 50px 15px;
+  }
+
+  .teeny-teachers-wrapper {
+    padding-top: 50px;
+  }
+
+  .teeny-teachers {
+    padding-top: 50px;
+
+    background-color: #ffffff;
+  }
+
+  .teachers-slider__mobile-v {
+    display: none;
+  }
+
+  .teachers-slider__desctop-v {
+    display: block;
+  }
+
+  .teachers-slider__conent {
+    padding: 0 25px 25px 25px;
+  }
+
+  .teachers__title {
+    max-width: 1150px;
+    padding: 0;
+
+    font-family: "GothamPro", "Arial", sans-serif;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 6px;
+    color: #ffffff;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  .teeny-teachers-title {
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 0 15px;
+
+    font-family: "SFUIDisplay-Bold", "Arial", sans-serif;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.3em;
+    color: #af7535;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .teachers__subtitle-teeny {
+    max-width: 768px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+    text-align :center;
+  }
+
+  .teachers__about {
+    max-width: 680px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding: 0 15px;
+
+    font-family: "SFUIDisplay-Regular", "Arial", sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: center;
+    color: #010101;
+  }
+
+  .teachers-slider-descktop .teachers-slider__conent {
+    margin-left: 25px;
+    margin-right: 25px;
+
+    background-color: #ffffff;
+  }
+
+  .teachers-slider__teacher-quote {
+    font-family: "GothamPro", "Arial", sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    color: #333333;
+    text-align: center;
+  }
+}
