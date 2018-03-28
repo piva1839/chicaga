@@ -99,6 +99,28 @@
   margin-bottom: 10px;
 }
 
+.kids-purpose-list {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.kids-purpose-item {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin-bottom: 100px;
+  text-align: left;
+}
+
+.purpose__item-img--margin {
+  margin-bottom: 0;
+  margin-right: 30px;
+}
+
+.purpose__item-description--padding {
+  padding-left: 10px;
+}
+
 @media screen and (min-width: 780px) {
   .purpose__title {
     margin-bottom: 40px;
