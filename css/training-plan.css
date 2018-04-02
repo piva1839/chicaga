@@ -188,7 +188,7 @@
   .training-plan__item-option-text--indent {
     display: block;
 
-    border-top: 1px solid #e1e1e1;
+    border-top: none;
   }
 
   .training-plan__item-options {

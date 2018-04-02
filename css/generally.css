@@ -90,6 +90,8 @@
 }
 
 .generally-kids__head--blue {
+  padding: 50px 15px 0;
+
   font-family: "SFUIDisplay-Regular", "Arial", sans-serif;
   font-size: 18px;
   line-height: 30px;
@@ -217,6 +219,8 @@ iframe {
   }
 
   .generally-kids__head--blue {
+    padding: 190px 15px 0;
+
     font-family: "SFUIDisplay-Regular", "Arial", sans-serif;
     font-size: 30px;
     line-height: 30px;
