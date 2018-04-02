@@ -64,6 +64,16 @@
   height: auto;
 }
 
+.methodology__diagram-title {
+  font-family: "SFUIDisplay-Regular", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
 .methodology__graph-img {
   width: 100%;
   height: auto;
@@ -125,5 +135,19 @@
     line-height: 24px;
     color: 333333;
     text-align: left;
+  }
+
+  .methodology__graph {
+    margin-bottom: 120px;
+  }
+
+  .methodology__diagram-title {
+    font-family: "SFUIDisplay-Regular", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    color: #000000;
+    text-transform: uppercase;
   }
 }

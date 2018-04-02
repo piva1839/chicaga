@@ -1,0 +1,64 @@
+.teeny-reviews {
+  display: flex;
+  justify-content: space-between;
+}
+
+.teeny-reviews__conent {
+  width: 32%;
+  margin-top: 60px;
+  min-height: 385px;
+  padding: 0 20px 20px 20px;
+
+  border: 1px solid #000000;
+}
+
+.teeny-reviews__photo {
+  width: 73px;
+  margin: -40px auto 20px;
+}
+
+.teeny-reviews__img {
+  width: 73px;
+  height: 73px;
+
+  border-radius: 50%;
+}
+
+.teeny-reviews__user-name {
+  margin-bottom: 10px;
+
+  font-family: "SFUIDisplay-Bold", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.3em;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.teeny-reviews__review-date {
+  display: block;
+  margin-top: 15px;
+
+  font-family: "GothamPro", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+  color: #af7535;
+}
+
+.teeny-reviews__user-quote {
+  font-family: "GothamPro", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+  .teeny-reviews {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .teeny-reviews__conent {
+    width: 100%;
+  }
+}

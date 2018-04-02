@@ -148,6 +148,6 @@
 
   .reviews-slider__conent-inner::before,
   .reviews-slider__conent-inner::after {
-    display: none;
+    
   }
 }

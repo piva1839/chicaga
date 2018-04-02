@@ -49,6 +49,7 @@
   color: #af7535;
   text-align: center;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .main-nav__item-link:hover,

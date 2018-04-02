@@ -237,7 +237,7 @@
   }
 
  .main-header__address-item--phone {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     padding-left: 35px;
 
     background: url("../img/phone-ico.png") no-repeat;

@@ -153,8 +153,6 @@
     opacity: 1; /* добавил свои arrows end */
 }
 
-
-
 /* my arrows end */
 
 .teachers-slider-descktop .slick-prev:before
@@ -177,7 +175,25 @@
     opacity: 1; /* добавил свои arrows end */
 }
 
+.main-gallery-kids-slider .slick-prev:before
+{
+    display: block; /* добавил свои arrows start */
+    width: 32px;
+    height: 47px;
+    margin-top: -15px;
+    background: url(../img/kids/lftar.png) no-repeat;
+    opacity: 1; /* добавил свои arrows end */
+}
 
+.main-gallery-kids-slider .slick-next:before
+{
+    display: block; /* добавил свои arrows start */
+    width: 32px;
+    height: 47px;
+    margin-top: -15px;
+    background: url(../img/kids/rhtar.png) no-repeat;
+    opacity: 1; /* добавил свои arrows end */
+}
 
 /* my arrows end */
 
